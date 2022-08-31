@@ -21,7 +21,7 @@ public class OpenshiftController {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("home");
 		List<Contatto> listacontatto = cr.getAll();
-		mv.addObject("listacontatti", listacontatto)
+		mv.addObject("listacontatti", listacontatto);
 		return mv;
 	}
 }
